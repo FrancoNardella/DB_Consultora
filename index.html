@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>DB</title>
+  </head>
+  <body>
+    <!------------ HEADER ------------>
+    <header>
+      <a href="index.html"><img src="img/flor.png" alt="Logo" /></a>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li><a href="#">Cerrar Sesión</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!------------ MAIN ------------>
+    <main>
+      <!------------ FORM ------------>
+      <section id="form">
+        <h1>Formulario de ingreso</h1>
+        <div class="form-container">
+          <form class="form-info">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" placeholder=" Ingresar nombre" />
+            <label for="lastname">Apellido:</label>
+            <input type="text" id="lastname" placeholder=" Ingresar apellido" />
+            <label for="email">Mail: </label>
+            <input type="email" id="email" placeholder=" Ingresar mail" />
+            <label for="phone">Tel./Cel.:</label>
+            <input type="text" id="phone" placeholder=" Ingresar número" />
+            <div class="buscarArchivo">
+              <input
+                type="type"
+                name="first"
+                id="first"
+                placeholder=" Nombre del archivo"
+              />
+              <input type="file" name="myImage" multiple />
+            </div>
+            <input type="button" class="subButton" value="Subir" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <!------------ FOOTER ------------>
+    <footer>
+      <img src="./img/flor.png" alt="logo" />
+      <p>Giuliana Contursi®</p>
+    </footer>
+  </body>
+</html>
