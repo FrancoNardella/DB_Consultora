@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/buscar.css" />
     <link rel="shorcut icon" href="assets/img/flor.png" />
     <title>DB</title>
   </head>
@@ -11,18 +11,29 @@
     <!------------ HEADER ------------>
     <header>
       <a href="index.html"><img src="assets/img/flor.png" alt="Logo" /></a>
-      <nav class="navbar"></nav>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="buscar.html">Buscar</a></li>
+          <li><a href="formulario.html">Ingresar</a></li>
+        </ul>
+      </nav>
     </header>
     <!------------ MAIN ------------>
     <main>
       <!------------ FORM ------------>
-      <section id="opcion">
-        <h1>Bienvenida Giuli!</h1>
-        <div class="opcion-container">
-          <a href="buscar.html"><button class="btn-buscar">Buscar</button></a>
-          <a href="formulario.html"
-            ><button class="btn-ingresar">Ingresar</button></a
-          >
+      <section id="form">
+        <h1>Buscar Perfiles</h1>
+        <div class="form-container">
+          <form class="form-info">
+            <input
+              type="search"
+              name="buscarPerfiles"
+              placeholder="Perfiles..."
+            />
+
+            <input class="btn-busqueda" type="submit" value="Buscar" />
+          </form>
         </div>
       </section>
     </main>

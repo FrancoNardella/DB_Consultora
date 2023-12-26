@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/formulario.css" />
+    <link rel="shorcut icon" href="assets/img/flor.png" />
+    <title>DB</title>
+  </head>
+  <body>
+    <!------------ HEADER ------------>
+    <header>
+      <a href="index.html"><img src="assets/img/flor.png" alt="Logo" /></a>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="buscar.html">Buscar</a></li>
+          <li><a href="formulario.html">Ingresar</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!------------ MAIN ------------>
+    <main>
+      <!------------ FORM ------------>
+      <section id="form">
+        <h1>Formulario de ingreso</h1>
+        <div class="form-container">
+          <form class="form-info">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" placeholder=" Ingresar nombre" />
+            <label for="lastname">Apellido:</label>
+            <input type="text" id="lastname" placeholder=" Ingresar apellido" />
+            <label for="email">Mail: </label>
+            <input type="email" id="email" placeholder=" Ingresar mail" />
+            <label for="phone">Tel./Cel.:</label>
+            <input type="text" id="phone" placeholder=" Ingresar número" />
+            <label for="perfil">Perfil:</label>
+            <input
+              type="text"
+              id="perfil"
+              placeholder=" Ingresar perfil laboral"
+            />
+            <div class="buscarArchivo">
+              <input
+                type="type"
+                name="first"
+                id="first"
+                placeholder=" Nombre del archivo"
+              />
+              <input type="file" name="myImage" multiple />
+            </div>
+            <button class="btn-subir">Subir</button>
+            <!-- <input type="button" class="subButton" value="Subir" /> -->
+          </form>
+        </div>
+      </section>
+    </main>
+    <!------------ FOOTER ------------>
+    <footer>
+      <img src="assets/img/flor.png" alt="logo" />
+      <p>Giuliana Contursi®</p>
+    </footer>
+  </body>
+</html>

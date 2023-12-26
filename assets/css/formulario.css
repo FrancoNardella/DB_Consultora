@@ -45,7 +45,7 @@ main {
   width: 100%;
   height: 750px;
   /* background: linear-gradient(to bottom, #f5b7b1, #ffffff); */
-  background-image: url(img/liana-mikah-qNhe2QXzLuo-unsplash.jpg);
+  background-image: url(/assets/img/liana-mikah-qNhe2QXzLuo-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -104,9 +104,9 @@ input[type="type"] {
 }
 
 /* input[type="file"] {
-  border-radius: 10px;
-  margin-left: 25px;
-} */
+    border-radius: 10px;
+    margin-left: 25px;
+  } */
 
 .btn-subir {
   width: 30%;
@@ -135,17 +135,17 @@ input[type="type"] {
 }
 
 /* input[type="button"] {
-  width: 30%;
-  height: 30px;
-  border-radius: 20px;
-  border: 1px solid #000000;
-  color: #eec9c6;
-  text-shadow: 0 0 0 #000000;
-  font-weight: bold;
-  text-align: center;
-  margin: 10px 35%;
-  cursor: pointer;
-} */
+    width: 30%;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    color: #eec9c6;
+    text-shadow: 0 0 0 #000000;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 35%;
+    cursor: pointer;
+  } */
 
 /* ==================== FOOTER ==================== */
 footer {
